@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. Extract the zip file or clone the repository using Git:
 
    ```
-   git clone <repository_url>
+   git clone https://github.com/rachit-bharadwaj/simple-image-uploader.git
    ```
 
 2. Install dependencies:
@@ -34,10 +34,10 @@ To run this project locally, follow these steps:
 
 3. Set up environment variables:
 
-   Create a `.env.local` file in the root directory and add the following variables:
+   Create a `.env` file in the root directory and add the following variables:
 
    ```
-   MONGODB_URI=<your_mongodb_uri>
+   MONGO_URI = <your_mongodb_uri>
    ```
 
 4. Run the development server:
@@ -51,16 +51,12 @@ To run this project locally, follow these steps:
 ## Usage
 
 1. Sign up for a new account or log in if you already have an account.
-2. Once logged in, you can upload images by navigating to the upload page.
+2. Once logged in, you can view as well as upload images.
 3. Uploaded images will be displayed on the platform.
 
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
