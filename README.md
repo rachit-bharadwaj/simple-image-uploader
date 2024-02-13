@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple Image Uploader Web Application
 
-## Getting Started
+This is a simple web application built using Next.js, MongoDB, Tailwind CSS, and React. It allows users to sign up, log in, and upload images securely.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- User authentication: Users can sign up for an account and log in securely.
+- Image upload: Authenticated users can upload images to the platform.
+- Secure storage: Uploaded images are securely stored in MongoDB.
+- Authorization: Only authenticated users can access certain routes and upload images.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Frontend: Next.js, React, Tailwind CSS
+- Backend: Node.js, Next.js, MongoDB (with Mongoose)
+- Authentication: JWT (JSON Web Tokens), Bcrypt
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Setup
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Extract the zip file or clone the repository using Git:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   git clone <repository_url>
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Install dependencies:
 
-## Deploy on Vercel
+   ```
+   cd simple-image-uploader
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Set up environment variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   Create a `.env.local` file in the root directory and add the following variables:
+
+   ```
+   MONGODB_URI=<your_mongodb_uri>
+   ```
+
+4. Run the development server:
+
+   ```
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Usage
+
+1. Sign up for a new account or log in if you already have an account.
+2. Once logged in, you can upload images by navigating to the upload page.
+3. Uploaded images will be displayed on the platform.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to customize the content according to your project's specifics. This README provides basic information about the project, its features, installation instructions, and how to use it.
