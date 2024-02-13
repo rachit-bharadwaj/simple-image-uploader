@@ -15,6 +15,14 @@ This is a simple web application built using Next.js, MongoDB, Tailwind CSS, and
 - Backend: Node.js, Next.js, MongoDB (with Mongoose)
 - Authentication: JWT (JSON Web Tokens), Bcrypt
 
+## Live Demo
+
+[Live Demo](https://simple-image-uploader-project.vercel.app/)
+
+## GitHub Repository
+
+[GitHub Repository](https://github.com/rachit-bharadwaj/simple-image-uploader)
+
 ## Project Setup
 
 To run this project locally, follow these steps:
@@ -59,5 +67,3 @@ To run this project locally, follow these steps:
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
-
-Feel free to customize the content according to your project's specifics. This README provides basic information about the project, its features, installation instructions, and how to use it.
